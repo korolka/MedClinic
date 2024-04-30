@@ -1,0 +1,40 @@
+﻿@using System.Globalization;
+@model List<MedClinicDAL.Models.Doctor>
+<section id="main" class="container">
+    <div class="row">
+        <div class="col-12">
+            @foreach (var doc in Model)
+            {
+                TimeSpan exp = doc.DayStartOfWork - DateTime.Now;
+                double experience = -(double)(exp.TotalDays / 365.25);
+                <section class="box">
+                    <p>
+                        <span class="image left">
+                            <img src="@doc.LinkPhoto" width="175" height="175" alt>
+                        </span>
+                        <h4>@doc.Specialization.NameOfSpecialization</h4><br>
+                        <h3>@doc.SurName @doc.Name @doc.MiddleName</h3>
+                        <hr>
+                        <h4>
+                            Experience: @(experience < 1 ? ">1" : ((int)experience).ToString()) years</h4>
+                        <h4>Price: @doc.CostForOneVisit</h4>
+                        <hr>
+                        <h2>Choose time:</h2>
+                        @{DateTime dateNow = DateTime.Now;}
+                        <pre>
+                            <h4>Today, @dateNow.ToString("D",CultureInfo.CreateSpecificCulture("en-US"))</h4>
+                            <ul class="actions small">
+                                @{
+                                    List<MedClinicDAL.Models.Slot> neededSlots = (from slot in doc.Slots where slot.StartTime.Date == dateNow.Date select slot).ToList();
+                                }
+                                @await Html.PartialAsync("_PartialShowSlotForNeededDay",neededSlots)
+                            </ul>
+                        </pre>
+                        <a asp-action="AllDays" asp-route-id="@doc.ID">Look all  day of working</a>
+
+                    </p>
+                </section>
+            }
+        </div>
+    </div>
+</section>

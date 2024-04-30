@@ -1,0 +1,24 @@
+﻿@model List<MedClinicDAL.Models.Slot>
+
+@if (Model.Any())
+{
+    @foreach (var slot in Model)
+    {
+        @if (slot.IsOccupied == true)
+        {
+            <li>
+                <a href="#" class="button special small">@slot.StartTime.ToString("hh:mm") - @slot.EndTime.ToString("hh:mm")</a>
+            </li>
+        }
+        else if (slot.IsOccupied == false)
+        {
+            <li>
+                <a asp-action="CompleteReg" class="button alt small">@slot.StartTime.ToString("hh:mm") - @slot.EndTime.ToString("hh:mm")</a>
+            </li>
+        }
+    }
+}
+else
+{
+    <h5>Doctor does not work in this day</h5>
+}

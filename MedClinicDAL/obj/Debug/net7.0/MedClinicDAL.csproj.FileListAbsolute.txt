@@ -1,0 +1,14 @@
+C:\Users\Vlad\source\repos\Новая папка\MedClinic\MedClinicDAL\bin\Debug\net7.0\MedClinicDAL.deps.json
+C:\Users\Vlad\source\repos\Новая папка\MedClinic\MedClinicDAL\bin\Debug\net7.0\MedClinicDAL.runtimeconfig.json
+C:\Users\Vlad\source\repos\Новая папка\MedClinic\MedClinicDAL\bin\Debug\net7.0\MedClinicDAL.dll
+C:\Users\Vlad\source\repos\Новая папка\MedClinic\MedClinicDAL\bin\Debug\net7.0\MedClinicDAL.pdb
+C:\Users\Vlad\source\repos\Новая папка\MedClinic\MedClinicDAL\obj\Debug\net7.0\MedClinicDAL.csproj.AssemblyReference.cache
+C:\Users\Vlad\source\repos\Новая папка\MedClinic\MedClinicDAL\obj\Debug\net7.0\MedClinicDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vlad\source\repos\Новая папка\MedClinic\MedClinicDAL\obj\Debug\net7.0\MedClinicDAL.AssemblyInfoInputs.cache
+C:\Users\Vlad\source\repos\Новая папка\MedClinic\MedClinicDAL\obj\Debug\net7.0\MedClinicDAL.AssemblyInfo.cs
+C:\Users\Vlad\source\repos\Новая папка\MedClinic\MedClinicDAL\obj\Debug\net7.0\MedClinicDAL.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\source\repos\Новая папка\MedClinic\MedClinicDAL\obj\Debug\net7.0\MedClinicDAL.dll
+C:\Users\Vlad\source\repos\Новая папка\MedClinic\MedClinicDAL\obj\Debug\net7.0\refint\MedClinicDAL.dll
+C:\Users\Vlad\source\repos\Новая папка\MedClinic\MedClinicDAL\obj\Debug\net7.0\MedClinicDAL.pdb
+C:\Users\Vlad\source\repos\Новая папка\MedClinic\MedClinicDAL\obj\Debug\net7.0\MedClinicDAL.genruntimeconfig.cache
+C:\Users\Vlad\source\repos\Новая папка\MedClinic\MedClinicDAL\obj\Debug\net7.0\ref\MedClinicDAL.dll

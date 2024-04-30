@@ -1,0 +1,10 @@
+﻿@model MedClinic.Models.DoctorChooseBindingModel
+<section id="main" class="container">
+    <section class="special box">
+        <form method="post" asp-action="AddSlots" asp-controller="Home">
+            <select asp-for="ChoosenDoctor" asp-items="@ViewBag.Docs"></select>
+            @await Html.PartialAsync("_PartialAddDays")
+            <button class="button special" type="submit">Create</button>
+        </form>
+    </section>
+</section>

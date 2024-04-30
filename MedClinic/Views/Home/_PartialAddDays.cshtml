@@ -1,0 +1,33 @@
+﻿@model MedClinic.Models.DoctorChooseBindingModel
+@{
+    var currentDate = DateTime.Now;
+    TimeSpan span = new TimeSpan(24, 00, 00);
+    currentDate.Add(span);
+}
+
+<h3>Choose days of work</h3>
+<style>
+    ul#dayList {
+        display: flex;
+        flex-wrap: wrap;
+        width: calc(100% + 1em);
+        overflow-x: auto;
+    }
+</style>
+@{
+    DateTime dayNow = DateTime.Now;
+    dayNow = dayNow.AddDays(1);
+}
+<ul class="actions fit" id="dayList">
+    @for (int i = 0; i < 9; i++)
+    {
+        if (dayNow.DayOfWeek != DayOfWeek.Sunday && dayNow.DayOfWeek != DayOfWeek.Saturday)
+        {
+            <li>
+                <input type="checkbox" name="SelectedDays" id="@dayNow.ToString()" value="@dayNow.ToString("yyyy-MM-dd")" />
+                <label for="@dayNow.ToString()" class="button alt fit">@dayNow.DayOfWeek (@dayNow.ToString("dd-MM-yyyy"))</label>
+            </li>
+        }
+        dayNow = dayNow.AddDays(1);
+    }
+</ul>

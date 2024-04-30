@@ -1,0 +1,60 @@
+﻿@using System.Globalization;
+@model MedClinicDAL.Models.Doctor
+
+<section id="main" class="container">
+    <div class="row">
+        <div class="col-12">
+            <section class="box">
+                <p>
+                    <span class="image left">
+                        <img src="@Model.LinkPhoto" width="175" height="175" alt>
+                    </span>
+                    <h4>@Model.Specialization.NameOfSpecialization</h4><br>
+                    <h3>@Model.SurName @Model.Name @Model.MiddleName</h3>
+                    <hr>
+                    @{
+                        DateTime dateNow = DateTime.Now;
+                        List<MedClinicDAL.Models.Slot> neededSlots = (from slot in Model.Slots where slot.StartTime.Date >= dateNow.Date select slot).ToList();
+                        neededSlots = neededSlots.OrderBy(slot => slot.StartTime).ToList();
+                        var groupedSlots = neededSlots.GroupBy(slot => slot.StartTime.Date);
+                    }
+
+                    @foreach (var group in groupedSlots)
+                    {
+                        <h4>@group.FirstOrDefault().StartTime.ToString("D",CultureInfo.CreateSpecificCulture("en-US"))</h4>
+                        <div class="actions small">
+                            @{
+                                int i = 0;
+                            }
+                            @foreach (var slot in group)
+                            {
+                                if (i == 8)
+                                    i = 0;
+                                <br />
+                                
+                                @if (slot.IsOccupied == true)
+                                {
+                                    <a href="#" onclick="return false" class="button special small">@slot.StartTime.ToString("hh:mm") - @slot.EndTime.ToString("hh:mm")</a>
+                                }
+                                else if (slot.IsOccupied == false)
+                                {
+                                    <form asp-action="CompleteReg" asp-controller="Home">
+                                        <input type="hidden" name="doctorId" value="@Model.ID">
+                                        <input type="hidden" name="slotId" value="@slot.ID">
+                                        <button type="submit" class="button alt small">@slot.StartTime.ToString("hh:mm") - @slot.EndTime.ToString("hh:mm")</button>
+
+                                    </form>
+                                }
+                                
+                                i++;
+                                
+                                
+                            }
+                        </div>
+                    }
+
+                </p>
+            </section>
+        </div>
+    </div>
+</section>

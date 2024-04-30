@@ -1,0 +1,55 @@
+﻿@model MedClinic.Models.UserSignUpBindingModel
+
+<section id="main" class="container medium">
+	<header>
+		<h2>Sign up</h2>
+		<p>Сomplete the registration</p>
+	</header>
+	<div class="box">
+		<form method="post" action="#">
+			<div class="row gtr-50 gtr-uniform">
+				<div class="col-6 col-12-mobilep">
+					<input  asp-for="SurName" placeholder="SurName" />
+					<span asp-validation-for="SurName" class="text-danger"></span>
+				</div>
+				<div class="col-6 col-12-mobilep">
+					<input asp-for="Name" placeholder="Name" />
+					<span asp-validation-for="Name" class="text-danger"></span>
+				</div>
+				<div class="col-12">
+					<input asp-for="MiddleName" placeholder="Middle name" />
+					<span asp-validation-for="MiddleName" class="text-danger"></span>
+				</div>
+				<div class="col-12">
+					<input asp-for="Email" placeholder="Email" />
+					<span asp-validation-for="Email" class="text-danger"></span>
+
+				</div>
+				<div class="col-12">
+					<input asp-for="Birthday" class="col-12"/>
+					<span asp-validation-for="Birthday" class="text-danger"></span>
+
+				</div>
+				<div class="col-12">
+					<input asp-for="PhoneNumber" placeholder="Phone number"  class="col-12"/>
+					<span asp-validation-for="PhoneNumber" class="text-danger"></span>
+				</div>
+				<div class="col-12">
+					<input asp-for="Password" placeholder="Password" />
+					<span asp-validation-for="Password" class="text-danger"></span>
+
+				</div>
+				<div class="col-12">
+					<input asp-for="ConfirmPassword" placeholder="Confirm password" />
+					<span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+
+				</div>
+				<div class="col-12">
+					<ul class="actions special">
+						<li><input type="submit" value="Send Message" /></li>
+					</ul>
+				</div>
+			</div>
+		</form>
+		</div>
+	</section>

@@ -1,0 +1,13 @@
+﻿@model MedClinic.Models.SearchDocBindingModel
+<h3>Write last name of doctor or specialization:</h3>
+    <form method="post" asp-controller="Home" asp-action="SearchDoc">
+        <div class="row gtr-uniform gtr-50">
+            <div class="col-9 col-12-mobilep">
+                <input asp-for="SurNameOrSpecialization" placeholder="Name or specialization" />
+                <span asp-validation-for="SurNameOrSpecialization" class="text-danger"></span>
+            </div>
+            <div class="col-3 col-12-mobilep">
+                <input type="submit" value="Search" class="fit" />
+            </div>
+        </div>
+    </form>

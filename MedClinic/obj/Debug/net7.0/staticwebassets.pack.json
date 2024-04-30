@@ -1,0 +1,177 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\css\\fontawesome-all.min.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome-all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\css\\images\\overlay.png",
+      "PackagePath": "staticwebassets\\css\\images\\overlay.png"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\images\\banner.jpg",
+      "PackagePath": "staticwebassets\\images\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\images\\banner1.jpg",
+      "PackagePath": "staticwebassets\\images\\banner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\images\\pic01.jpg",
+      "PackagePath": "staticwebassets\\images\\pic01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\images\\pic02.jpg",
+      "PackagePath": "staticwebassets\\images\\pic02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\images\\pic03.jpg",
+      "PackagePath": "staticwebassets\\images\\pic03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\images\\pic04.jpg",
+      "PackagePath": "staticwebassets\\images\\pic04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\images\\pic05.jpg",
+      "PackagePath": "staticwebassets\\images\\pic05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\js\\breakpoints.min.js",
+      "PackagePath": "staticwebassets\\js\\breakpoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\js\\browser.min.js",
+      "PackagePath": "staticwebassets\\js\\browser.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\js\\jquery.dropotron.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.dropotron.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\js\\jquery.scrollex.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.scrollex.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\js\\util.js",
+      "PackagePath": "staticwebassets\\js\\util.js"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\sass\\libs\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\sass\\libs\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\sass\\libs\\_functions.scss",
+      "PackagePath": "staticwebassets\\sass\\libs\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\sass\\libs\\_html-grid.scss",
+      "PackagePath": "staticwebassets\\sass\\libs\\_html-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\sass\\libs\\_mixins.scss",
+      "PackagePath": "staticwebassets\\sass\\libs\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\sass\\libs\\_vars.scss",
+      "PackagePath": "staticwebassets\\sass\\libs\\_vars.scss"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\sass\\libs\\_vendor.scss",
+      "PackagePath": "staticwebassets\\sass\\libs\\_vendor.scss"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\sass\\main.scss",
+      "PackagePath": "staticwebassets\\sass\\main.scss"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Новая папка\\MedClinic\\MedClinic\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MedClinic.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.MedClinic.props",
+      "PackagePath": "build\\MedClinic.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.MedClinic.props",
+      "PackagePath": "buildMultiTargeting\\MedClinic.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.MedClinic.props",
+      "PackagePath": "buildTransitive\\MedClinic.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

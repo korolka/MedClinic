@@ -1,0 +1,60 @@
+﻿@model MedClinic.Models.AddDoctorBindingModel
+<section id="main" class="container medium">
+    <header>
+        <h2>Add doctor</h2>
+        <p>Write doctor personal data</p>
+    </header>
+    <div class="box">
+        <form asp-action="CreateDocAndSlot" method="post">
+            <div class="row gtr-50 gtr-uniform">
+                <div class="validation" asp-validation-summary="ModelOnly"></div>
+                <div class="col-12">
+                    <input asp-for="Name" placeholder="Name" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="col-12">
+                    <input asp-for="SurName" placeholder="Full name" />
+                    <span asp-validation-for="SurName" class="text-danger"></span>
+                </div>
+                <div class="col-12">
+                    <input asp-for="MiddleName" placeholder="Middle name" />
+                    <span asp-validation-for="MiddleName" class="text-danger"></span>
+                </div>
+                <div class="col-12">
+                    <label asp-for="BirthDay"></label>
+                    <input asp-for="BirthDay" class="col-12">
+                </div>
+                <div class="col-12">
+                    <label asp-for="DayStartOfWork"></label>
+                    <input asp-for="DayStartOfWork" class="col-12">
+                </div>
+
+                <div class="col-12">
+                    <input asp-for="CostForOneVisit" placeholder="Cost for one visit" />
+                    <span asp-validation-for="CostForOneVisit" class="text-danger"></span>
+                </div>
+                <div class="col-12">        
+                    <input asp-for="LinkPhoto" placeholder="Link photo" />
+                    <span asp-validation-for="LinkPhoto" class="text-danger"></span>
+                </div>
+                <div class="col-12">
+                    <input asp-for="PassportId" placeholder="Passport Id" />
+                    <span asp-validation-for="PassportId" class="text-danger"></span>
+                </div>
+                <div class="col-12">
+                    <select asp-for="Specialization"  asp-items="ViewBag.Spec" ></select>
+                </div>
+                <div class="col-12">
+                    <select asp-for="Clinic" asp-items="ViewBag.ClinicAddress"></select>
+                </div>
+                @await Html.PartialAsync("_PartialAddDays.cshtml")
+                <div class="col-12">
+                    <ul class="actions special">
+                        <li><input type="submit" value="Create" /></li>
+                    </ul>
+                </div>
+            </div>
+            </>
+        </form>
+    </div>
+</section>
